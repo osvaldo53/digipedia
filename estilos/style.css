@@ -122,10 +122,11 @@ div#conteudo {
 
 div#conteudo h1 {
     font-family: var(--fonte-titulo);
+    font-size: 1.4em;
     background-image: linear-gradient(to right, var(--cor0), transparent);
     color: var(--cor3);
     text-align: left;
-    padding: 15px;
+    padding: 10px;
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.486);
     border-radius: 5px;
 }
