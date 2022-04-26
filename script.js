@@ -32,7 +32,7 @@ function selecionar() {
         <p>Um Digimon Ciborgue que mecanizou mais de metade do seu corpo. Os MetalGreymons da Ilha File foram capazes de estender drasticamente as suas funções vitais através de uma remodelação, mas as partes orgânicas dos seus corpos não aguentaram e acabaram por descolorir. Um MetalGreymon pleno, contudo, é um Digimon Ciborgue superior em poder que resulta da evolução bem sucedida de um Greymon. Além disso, diz-se que o seu poder ofensivo equivale ao de uma ogiva nuclear e que qualquer Digimon de baixo nível que sofre o seu ataque é aniquilado sem deixar rasto.</p>
         
         <h1>WarGreymon</h1>
-        <img src="imagens/WarGreymon.png" alt="WarGreymon" id="imgres">
+        <img src="imagens/wargreymon.png" alt="WarGreymon" id="imgres">
         <p>O guerreiro dragão mais forte, cujo corpo é revestido por uma armadura de super-metal "Chrome DigiZoid", é a forma derradeira dos Digimons das Espécies Greymon. Embora a sua forma humana difira das gigantescas figuras dos Digimons das Espécies Greymon, melhorou grandemente a sua velocidade e poder, e é provavelmente impossível derrotá-lo com ataques de níveis Perfeito. Os "Dramon Killers" equipados nos dois braços demonstram imenso poder contra Digimons das espécies Dramon, embora sejam espadas de dois gumes que põem em risco a sua própria vida. Além disso, quando as duas couraças que tem nas costas se unem, tornam-se no "Brave Shield", um dos escudos mais resistentes. O seu movimento especial é reunir toda a energia da atmosfera, concentrá-la num só ponto, e arremessá-la sob a forma de um tiro de energia de densidade e temperatura extremamente elevadas (Gaia Force).</p>`
     } else if (digi[1].checked) {
         res.innerHTML = `<h1>Tsunomon</h1>
