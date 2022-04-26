@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiPedia</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>DigiPedia</h1>
+        <p>Site com informações dos Digimons dos protagonistas de <a href="https://digimon.fandom.com/wiki/Digimon_Adventure" target="_blank" rel="external" class="link">Digimon Adventure</a>.</p>
+        
+    </header>
+    <nav>
+        <img src="imagens/imagemprincipal.jpg" alt="Digimons">
+        <div>
+            <input type="radio" name="raddigi" id="input1" class="selecao" checked>
+            <input type="radio" name="raddigi" id="input2" class="selecao">
+            <input type="radio" name="raddigi" id="input3" class="selecao">
+            <input type="radio" name="raddigi" id="input4" class="selecao">
+            <input type="radio" name="raddigi" id="input5" class="selecao">
+            <input type="radio" name="raddigi" id="input6" class="selecao">
+            <input type="radio" name="raddigi" id="input7" class="selecao">
+            <input type="radio" name="raddigi" id="input8" class="selecao">
+        </div>
+
+        <input type="button" value="SELECIONAR" id="botao" onclick="selecionar()">
+    </nav>
+
+    <img src="imagens/logodigimon.png" alt="Digimon" id="imgexemplo">
+
+    <main>
+        <div id="conteudo">
+           
+        </div>
+    </main>
+    
+    <footer>
+        <p>Site desenvolvido por <a href="https://github.com/osvaldo53" target="_blank" rel="external">Osvaldo Souza</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
